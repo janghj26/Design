@@ -1,0 +1,74 @@
+.main {
+    width: 800px;
+    height: 200px;
+    margin: 40px;
+    
+}
+
+.container1 {
+    width: 75%;
+    height: 100%;
+    float: left;
+    background: white;
+}
+
+.title {
+    height: 20%;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.profile {
+    width: 50px;
+    height: 100%;
+}
+
+img {
+    float: left;
+}
+
+.profile-name {
+    font-size: 12pt;
+    height: 50%;
+    width: 80%;
+    padding-left: 60px;
+}
+
+.status {
+    font-size: 9pt;
+    width: 80%;
+    height: 50%;
+    padding-top: 5px;
+    padding-left: 60px;
+    color: grey;
+}
+
+.contents-title {
+    font-weight: bold;
+    font-size: 15pt;
+    padding: 5pt;
+}
+
+.contents {
+    font-size: 10pt;
+    color: grey;
+    padding: 5pt;
+}
+
+.contents-container {
+    height: 80%;
+    margin: 4px;
+}
+
+.container2 {
+    width: 25%;
+    height: 100%;
+    float: right;
+}
+
+.pic {
+    height: 100%;
+    margin: 3px;
+    background: whitesmoke;
+}

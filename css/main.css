@@ -1,0 +1,262 @@
+div {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+html {
+  line-height: 1.15;
+}
+
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blog-profile {
+  width: 50px;
+  display: block;
+  float: left;
+}
+
+.blog-name {
+  float: left;
+}
+
+nav {
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+  background: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar a {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/shoes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1px;
+}
+
+.main-title {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.main-content {
+  color: blanchedalmond;
+  font-size: 20px;
+  margin-left: 7px;
+  text-align: center;
+}
+
+.main-button {
+  padding: 15px;
+  font-size: 20px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  cursor: pointer;
+  width: 200px;
+}
+
+.main-button:hover {
+  background-color: whitesmoke;
+}
+
+.explain-box {
+  width: 80%;
+  max-width: 600px;
+  height: 200px;
+  background: gainsboro;
+  padding-bottom: 50px;
+  margin: auto;
+  bottom: 50px;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.main-title2 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+.flex-container {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  padding: 10px;
+}
+
+.flex-item {
+  margin-right: 10px;
+}
+
+.product-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.product-container div {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.form-background {
+  background-color: black;
+  padding: 30px;
+}
+
+.form-white {
+  background-color: white;
+  padding: 30px;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.w-100 {
+  width: 100%;
+  padding: 10px;
+}
+
+.w-50 {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+.yellow-button {
+  padding: 15px;
+  display: block;
+  margin-left: auto;
+  color: white;
+  background-color: indianred;
+  border-radius: 5px;
+  border-color: indianred;
+}
+
+@media screen and (max-width : 992px) {
+    .main-title {
+      font-size: 30px;
+    }
+    .product-container>div {
+        float: left;
+        width: 50%;
+    }
+    .product-container {
+      max-width: 600px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .main-title {
+      font-size: 20px;
+    }
+    .product-container>div {
+        float: none;
+        width: 100%;
+    }
+}
+
+.product-container i {
+  background-color: burlywood;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  padding-top: 25px;
+  box-sizing: border-box;
+  color: white;
+  margin-top: 15px;
+}
+
+.shop-bg {
+  background-color: #eee;
+  padding: 20px;
+}
+.shop-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.shop-item {
+  width: 33%;
+  padding: 10px;
+}
+.shop-item img {
+  width: 100%;
+  display: block;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  opacity: 0;
+  transition: all 1s;
+}
+.overlay:hover {
+  opacity: 1;
+}
+
+.overlay2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: all 1s;
+}
+.overlay2 div {
+  font-size: 30px; 
+  color: white; 
+  margin: 10px;
+}
+
+.shop-item:hover {
+  .overlay2 {
+    opacity: 1;
+    margin-top: 50%;
+  }
+}
